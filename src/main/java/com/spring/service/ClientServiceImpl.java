@@ -13,7 +13,6 @@ import java.util.List;
 public class ClientServiceImpl implements ClientService {
     private ClientRepository clientRepository;
 
-    @Autowired
     public ClientServiceImpl(ClientRepository clientRepository) {
         this.clientRepository = clientRepository;
     }
