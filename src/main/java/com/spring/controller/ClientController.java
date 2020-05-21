@@ -17,7 +17,6 @@ import java.util.Map;
 public class ClientController {
     private ClientService clientService;
 
-    @Autowired
     public ClientController(ClientService clientService) {
         this.clientService = clientService;
     }
